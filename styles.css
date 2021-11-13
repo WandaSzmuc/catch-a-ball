@@ -37,15 +37,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.scores_table--el{
+.scores_table--el {
   text-align: center;
 }
 @media (max-width: 480px) {
-  .scores_table{
+  .scores_table {
     justify-content: center;
     font-size: 15px;
   }
-  .scores_table h2{
+  .scores_table h2 {
     margin: 10px;
   }
 }
@@ -58,25 +58,28 @@ body {
   border-radius: 10px;
 }
 @media (max-width: 585px) {
-  .grid{
+  .grid {
     width: 450px;
     height: 500px;
+  }
 }
 @media (max-width: 480px) {
-  .grid{
+  .grid {
     width: 350px;
     height: 400px;
+  }
 }
 .square {
   height: 150px;
   width: 150px;
 }
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .square {
     height: 100px;
     width: 100px;
   }
 }
+
 .ball {
   background-image: url("basketball.png");
   background-size: cover;
